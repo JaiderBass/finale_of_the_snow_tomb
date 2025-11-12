@@ -99,7 +99,7 @@
 <body>
   <!-- Animación de intro -->
   <div id="intro-container">
-    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/inicio.jpg" alt="Intro Animation">
+    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/inicio.jpg" alt="Intro Animation">
   </div>
 
   <!-- Botones de control fijos -->
@@ -112,7 +112,7 @@
   <a-scene
     vr-mode-ui="enabled: false"
     device-orientation-permission-ui="enabled: false"
-    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
+    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
     color-space="sRGB"
     renderer="colorManagement: true, physicallyCorrectLights"
   >
@@ -121,27 +121,27 @@
       
       <!-- Marker 0 Assets -->
       <video id="video0"
-             src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/VIDEO1.mp4"
+             src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/VIDEO1.mp4"
              preload="auto" loop playsinline webkit-playsinline crossorigin="anonymous">
       </video>
-      <img id="mask0" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/mascara6.jpg" crossorigin="anonymous">
-      <img id="frame0" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/marco6.png" crossorigin="anonymous">
+      <img id="mask0" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/mascara6.jpg" crossorigin="anonymous">
+      <img id="frame0" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/marco6.png" crossorigin="anonymous">
 
       <!-- Marker 1 Assets -->
       <video id="video1"
-             src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/VIDEO2.mp4"
+             src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/VIDEO2.mp4"
              preload="auto" loop playsinline webkit-playsinline crossorigin="anonymous">
       </video>
-      <img id="mask1" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/mascara2.jpg" crossorigin="anonymous">
-      <img id="frame1" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/marco2.png" crossorigin="anonymous">
+      <img id="mask1" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/mascara2.jpg" crossorigin="anonymous">
+      <img id="frame1" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/marco2.png" crossorigin="anonymous">
 
       <!-- Marker 2 Assets -->
       <video id="video2"
-             src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/VIDEO3.mp4"
+             src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/VIDEO3.mp4"
              preload="auto" loop playsinline webkit-playsinline crossorigin="anonymous">
       </video>
-      <img id="mask2" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/mascara3.jpg" crossorigin="anonymous">
-      <img id="frame2" src="https://cdn.jsdelivr.net/gh/JaiderBass/finale_of_the_snow_tomb@main/assets/marco3.png" crossorigin="anonymous">
+      <img id="mask2" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/mascara3.jpg" crossorigin="anonymous">
+      <img id="frame2" src="https://cdn.jsdelivr.net/gh/JaiderBass/JaiderBass@main/assets/marco3.png" crossorigin="anonymous">
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -317,7 +317,7 @@
         // Rotation
         rotationMin: 0,
         rotationMax: 20,
-        rotationSpeed: 0.5
+        rotationSpeed: 0.3
       },
       { 
         // MARCADOR 1
@@ -328,7 +328,7 @@
         markerGroupId: 'markerGroup1',
 
         // Global
-        globalScale: 1.47,
+        globalScale: 1.45,
         globalPositionX: 0,
         globalPositionY: 0,
         globalPositionZ: 0,
@@ -340,20 +340,20 @@
         videoPositionZ: 0.02,
         
         // Frame/Overlay
-        overlayScale: 1.17,
+        overlayScale: 1.13,
         framePositionX: 0,
-        framePositionY: 0.08,
-        framePositionZ: 0.03,
+        framePositionY: 0.12,
+        framePositionZ: 0.05,
         
         // Mask
-        maskScale: 1.09,
+        maskScale: 1,
         maskPositionX: 0,
-        maskPositionY: 0.08,
+        maskPositionY: 0.18,
 
         // Rotation
         rotationMin: 0,
-        rotationMax: 20,
-        rotationSpeed: 0.5
+        rotationMax: 14,
+        rotationSpeed: 0.2
       },
       { 
         // MARCADOR 2
@@ -364,7 +364,7 @@
         markerGroupId: 'markerGroup2',
 
         // Global
-        globalScale: 1.9,
+        globalScale: 1.72,
         globalPositionX: 0,
         globalPositionY: 0,
         globalPositionZ: 0,
@@ -372,24 +372,24 @@
         // Video
         videoScale: 1,
         videoPositionX: 0,
-        videoPositionY: -0.03,
-        videoPositionZ: -0.29,
+        videoPositionY: 0,
+        videoPositionZ: 0.02,
         
         // Frame/Overlay
-        overlayScale: 0.98,
+        overlayScale: 1.09,
         framePositionX: 0,
-        framePositionY: 0.02,
-        framePositionZ: 0,
+        framePositionY: 0.1,
+        framePositionZ: 0.05,
         
         // Mask
-        maskScale: 1.36,
-        maskPositionX: 0.1,
-        maskPositionY: -0.06,
+        maskScale: 1.32,
+        maskPositionX: 0,
+        maskPositionY: -0.03,
 
         // Rotation
         rotationMin: 0,
-        rotationMax: 16,
-        rotationSpeed: 0.1
+        rotationMax: 13,
+        rotationSpeed: 0.2
       }
     ];
 
